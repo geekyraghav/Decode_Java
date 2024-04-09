@@ -41,13 +41,7 @@ public class Traversals {
 //            nThLevel(a,0,x);
 //            System.out.println();
 //        }
-        List<Integer> arr = new ArrayList<>();
-        arr.add(1);
-        arr.add(2);
-        arr.add(3);
-        List<Integer> arr1 = Collections.copy(arr);
-        arr1.set(0,10);
-        System.out.println(arr.get(0));
+
     }
     private static void nThLevel(Node root, int level, int lvl){
         if(root==null) return;
